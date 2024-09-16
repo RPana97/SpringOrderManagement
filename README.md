@@ -8,34 +8,7 @@ Uses Spring Data JPA for database interactions.
 Includes a simple REST API for creating, retrieving, updating, and deleting entities.
 In-memory H2 database for data persistence.
 JUnit test cases written to validate service functionality.
-Project Structure
-bash
-Copy code
-ordermanagementspring/
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── org
-│   │   │       └── example
-│   │   │           └── ordermanagementspring
-│   │   │               ├── Order.java
-│   │   │               ├── OrderController.java
-│   │   │               ├── OrderRepository.java
-│   │   │               ├── OrderService.java
-│   │   │               ├── Product.java
-│   │   │               ├── ProductController.java
-│   │   │               ├── ProductRepository.java
-│   │   │               └── ProductService.java
-│   ├── resources
-│   │   └── application.properties
-│   ├── test
-│       └── java
-│           └── org
-│               └── example
-│                   └── ordermanagementspring
-│                       ├── OrderServiceTest.java
-│                       └── ProductServiceTest.java
-└── pom.xml
+
 Prerequisites
 To run this project, ensure you have the following installed:
 
